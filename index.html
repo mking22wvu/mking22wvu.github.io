@@ -1,7 +1,872 @@
+
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>EBLv4 Forums - Index page</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - EBLv4 Forums" href="/eblv4forums/app.php/feed">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="/eblv4forums/app.php/feed/topics">				
+
+<!--
+	phpBB style name: Hexagon
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:	  MannixMD @MannixMD
+-->
+
+<link href="./assets/css/font-awesome.min.css?assets_version=19" rel="stylesheet">
+<link href="./styles/Hexagon/theme/stylesheet.css?assets_version=19" rel="stylesheet">
+<link href="./styles/Hexagon/theme/en/stylesheet.css?assets_version=19" rel="stylesheet">
+
+
+
+<link href="./styles/Hexagon/theme/fonts/roboto/css/roboto.css?assets_version=19" rel="stylesheet">
+<link href="./styles/Hexagon/theme/hexagon.css?assets_version=19" rel="stylesheet">
+<!--[if lte IE 9]>
+	<link href="./styles/Hexagon/theme/tweaks.css?assets_version=19" rel="stylesheet">
+<![endif]-->
+
+
+<link href="./ext/paul999/ajaxshoutbox/styles/prosilver/theme/ajax_shoutbox.css?assets_version=19" rel="stylesheet" media="screen" />
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-index ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	
+	
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-ellipsis-v" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+													<li>
+								<a href="./search.php?search_id=egosearch" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i><span>Your posts</span>
+								</a>
+							</li>
+																			<li>
+								<a href="./search.php?search_id=newposts" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-red" aria-hidden="true"></i><span>New posts</span>
+								</a>
+							</li>
+																			<li>
+								<a href="./search.php?search_id=unreadposts" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-red" aria-hidden="true"></i><span>Unread posts</span>
+								</a>
+							</li>
+													<li>
+								<a href="./search.php?search_id=unanswered" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i><span>Unanswered topics</span>
+								</a>
+							</li>
+							<li>
+								<a href="./search.php?search_id=active_topics" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="./search.php" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+											<li class="separator"></li>
+													<li>
+								<a href="./memberlist.php" role="menuitem">
+									<i class="icon fa-group fa-fw" aria-hidden="true"></i><span>Members</span>
+								</a>
+							</li>
+																			<li>
+								<a href="./memberlist.php?mode=team" role="menuitem">
+									<i class="icon fa-shield fa-fw" aria-hidden="true"></i><span>The team</span>
+								</a>
+							</li>
+																<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-last-responsive="true">
+			<a href="/eblv4forums/app.php/help/faq" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>FAQ</span>
+			</a>
+		</li>
+						
+					<li id="username_logged_in" class="rightside  no-bulletin" data-skip-responsive="true">
+						<div class="header-profile dropdown-container">
+				<a href="./ucp.php" class="header-avatar dropdown-trigger"><img class="avatar" src="http://s1.ticketm.net/tm/en-us/dam/a/06c/3da037f9-d27d-4620-b2b1-89c2150e706c_29221_CUSTOM.jpg" alt="User avatar" />  <span class="username">mking22</span></a>
+				<div class="dropdown">
+					<div class="pointer"><div class="pointer-inner"></div></div>
+					<ul class="dropdown-contents" role="menu">
+						
+					
+						<li>
+							<a href="./ucp.php" title="User Control Panel" role="menuitem">
+								<i class="icon fa-sliders fa-fw" aria-hidden="true"></i><span>User Control Panel</span>
+							</a>
+						</li>
+						<li>
+							<a href="./memberlist.php?mode=viewprofile&amp;u=3310140" title="Profile" role="menuitem">
+								<i class="icon fa-user fa-fw" aria-hidden="true"></i><span>Profile</span>
+							</a>
+						</li>
+
+						
+						<li class="separator"></li>
+						<li>
+							<a href="./ucp.php?mode=logout&amp;sid=596ad9aab23bb87c002d8e783cdf2093" title="Logout" accesskey="x" role="menuitem">
+								<i class="icon fa-power-off fa-fw" aria-hidden="true"></i><span>Logout</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+					</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="./ucp.php?i=pm&amp;folder=inbox" role="menuitem">
+					<i class="icon fa-inbox fa-fw" aria-hidden="true"></i><span><span class="responsive-hide">Private messages</span> <strong class="navbar_counter">0</strong></span>
+				</a>
+			</li>
+							<li class="dropdown-container dropdown-right rightside" data-skip-responsive="true">
+				<a href="./ucp.php?i=ucp_notifications" id="notification_list_button" class="dropdown-trigger">
+					<i class="icon fa-bell fa-fw" aria-hidden="true"></i><span><span class="responsive-hide">Notifications</span> <strong class="navbar_counter">0</strong></span>
+				</a>
+				<div id="notification_list" class="dropdown dropdown-extended notification_list">
+	<div class="pointer"><div class="pointer-inner"></div></div>
+	<div class="dropdown-contents">
+		<div class="header">
+			Notifications
+			<span class="header_settings">
+				<a href="./ucp.php?i=ucp_notifications&amp;mode=notification_options">Settings</a>
+							</span>
+		</div>
+
+		<ul>
+										<li class="">
+											<a class="notification-block" href="./ucp.php?i=pm&amp;mode=view&amp;p=683">
+											<img src="./styles/Hexagon/theme/images/no_avatar.gif" alt="" />						<div class="notification_text">
+							<p class="notification-title"><strong>Private Message</strong> from <span style="color: #AA0000;" class="username-coloured">Mofoticon</span>:</p>
+							<p class="notification-reference">"Re: Spurs position checks"</p>																					<p class="notification-time">Thu Dec 27, 2018 4:21 pm</p>
+						</div>
+					</a>									</li>
+							<li class="">
+											<a class="notification-block" href="./ucp.php?i=pm&amp;mode=view&amp;p=660">
+											<img class="avatar" src="./styles/Hexagon/theme/images/no_avatar.gif" data-src="http://i.imgur.com/IMz4xms.jpg" alt="User avatar" />						<div class="notification_text">
+							<p class="notification-title"><strong>Private Message</strong> from <span class="username">Kou</span>:</p>
+							<p class="notification-reference">"Re: Trade"</p>																					<p class="notification-time">Sat Dec 22, 2018 7:23 pm</p>
+						</div>
+					</a>									</li>
+							<li class="">
+											<a class="notification-block" href="./ucp.php?i=pm&amp;mode=view&amp;p=658">
+											<img class="avatar" src="./styles/Hexagon/theme/images/no_avatar.gif" data-src="http://i.imgur.com/IMz4xms.jpg" alt="User avatar" />						<div class="notification_text">
+							<p class="notification-title"><strong>Private Message</strong> from <span class="username">Kou</span>:</p>
+							<p class="notification-reference">"Re: Trade"</p>																					<p class="notification-time">Sat Dec 22, 2018 1:12 am</p>
+						</div>
+					</a>									</li>
+							<li class="">
+											<a class="notification-block" href="./ucp.php?i=pm&amp;mode=view&amp;p=618">
+											<img class="avatar" src="./styles/Hexagon/theme/images/no_avatar.gif" data-src="http://c8.alamy.com/comp/DMWKPP/jan-19-2002-foxboro-ma-usa-oakland-raiders-head-coach-jon-gruden-walks-DMWKPP.jpg" alt="User avatar" />						<div class="notification_text">
+							<p class="notification-title"><strong>Private Message</strong> from <span class="username">Raiderguy</span>:</p>
+							<p class="notification-reference">"Re: trade"</p>																					<p class="notification-time">Wed Dec 19, 2018 11:50 am</p>
+						</div>
+					</a>									</li>
+							<li class="">
+											<a class="notification-block" href="./ucp.php?i=pm&amp;mode=view&amp;p=598">
+											<img class="avatar" src="./styles/Hexagon/theme/images/no_avatar.gif" data-src="http://i.imgur.com/IMz4xms.jpg" alt="User avatar" />						<div class="notification_text">
+							<p class="notification-title"><strong>Private Message</strong> from <span class="username">Kou</span>:</p>
+							<p class="notification-reference">"Re: trade"</p>																					<p class="notification-time">Sat Dec 15, 2018 1:22 am</p>
+						</div>
+					</a>									</li>
+					</ul>
+
+		<div class="footer">
+			<a href="./ucp.php?i=ucp_notifications"><span>See All</span></a>
+		</div>
+	</div>
+</div>
+			</li>
+							<li class="rightside responsive-search">
+				<a href="./search.php" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+						</ul>
+
+
+
+	
+
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="./index.php" title="Board index"><span class="site_logo"></span></a>
+				<h1>EBLv4 Forums</h1>
+				<p class="site-des">EBLv4 Forums</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+
+			</div>
+					</div>
+				
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+	
+
+						<li class="breadcrumbs">
+										<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""><a href="./index.php" itemprop="url" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="title">Board index</span></a></span>
+
+								</li>
+		
+					
+						<li id="search-box" class="search-box search-header">
+				<form action="./search.php" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="search" maxlength="128" title="Search for keywords" class="inputbox search tiny" size="20" value="" placeholder="Search…" />
+					<button class="button button-search" type="submit" title="Search">
+						<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+					</button>
+					<a href="./search.php" class="button button-search-end" title="Advanced search">
+						<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+					</a>
+					
+				</fieldset>
+				</form>
+			</li>
+								
+		
+		
+	</ul>
+			</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<p class="right responsive-center time rightside">Last visit was: Fri Jan 04, 2019 10:27 pm</p>
+<p class="responsive-center time">It is currently Sat Jan 05, 2019 1:26 am</p>
+	<div class="action-bar compact">
+		<a href="./index.php?hash=44fc9b35&amp;mark=forums&amp;mark_time=1546665960" class="mark-read rightside" accesskey="m" data-ajax="mark_forums_read">Mark forums read</a>
+	</div>
+
+    <div class="forabg">
+    <div class="inner">
+        <ul class="topiclist">
+            <li class="header">
+                <dl class="row-item">
+                    <dt>
+                    <div class="list-inner">Shoutbox</div>
+                    </dt>
+                </dl>
+            </li>
+        </ul>
+                <form action="/eblv4forums/app.php/ajaxshoutbox/post" id="ajaxshoutbox_post" method="post">
+            <input type="hidden" name="sid" value="596ad9aab23bb87c002d8e783cdf2093" />
+            <input type="hidden" name="creation_time" value="1546665960" />
+<input type="hidden" name="form_token" value="514e93abe667dab25166e49fb0e4354b05b2f9c8" />
+
+            <ul class="topiclist ajaxshoutboxpost forums">
+                <li class="row">
+                    <dl>
+                        <dt>Add message: <input type="text" name="text_shoutbox" id="text_shoutbox"/>
+                            <input type="submit" name="submit" value="Submit" class="button2" id="submit_shoutbox">
+                        </dt>
+                        <dd><div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div></dd>
+                    </dl>
+                </li>
+            </ul>
+        </form>
+                        <script>
+            var AJAX_SHOUTBOX_POSTS = "/eblv4forums/app.php/ajaxshoutbox/getAll";
+            var AJAX_SHOUTBOX_POSTS_NEW = "/eblv4forums/app.php/ajaxshoutbox/getAfter/0";
+            var AJAX_SHOUTBOX_POSTS_OLD = "/eblv4forums/app.php/ajaxshoutbox/getBefore/0";
+        </script>
+        <noscript>
+            <ul class="topiclist forums">
+                <li class="row">
+                    <dl>
+                        <dt>NO_JS</dt>
+                    </dl>
+                </li>
+            </ul>
+        </noscript>
+        <div id="shoutbox_scroll">
+            <ul class="topiclist shoutboxlist forums" id="shoutbox_content">
+                <li class="row" id="copy">
+                    <dl>
+                        <dt data-type="user" class="ajaxshoutbox_user"></dt>
+                        <dd data-type="date" class="ajaxshoutbox_date"></dd>
+                        <dd data-type="delete" class="ajaxshoutbox_delete">
+                            <form action="/eblv4forums/app.php/ajaxshoutbox/delete" data-type="submit-delete" method="post">
+                                <input type="hidden" name="sid" value="596ad9aab23bb87c002d8e783cdf2093" />
+                                <input data-type="delete-id" type="hidden" name="id" value="" />
+                                <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
+                                <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
+                                <input type="submit" name="delete" value="Delete" class="button2" />
+                            </form>
+                        </dd>
+                        <dd data-type="message" class="ajaxshoutbox_message"></dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="topiclist waitinglist forums" id="ajaxshoutbox_loadafter">
+                <li class="row">
+                    <dl>
+                        <dt><div class="ajaxshoutbox_loadingbar"></div></dt>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+    
+
+	
+				<div class="forabg">
+			<div class="inner">
+			<ul class="topiclist">
+				<li class="header">
+										<dl class="row-item">
+						<dt><div class="list-inner"><a href="./viewforum.php?f=1">Elite Basketball League</a></div></dt>
+						<dd class="topics">Topics</dd>
+						<dd class="posts">Posts</dd>
+						<dd class="lastpost"><span>Last post</span></dd>
+					</dl>
+									</li>
+			</ul>
+			<ul class="topiclist forums">
+		
+	
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread_subforum">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=18" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - League Office" href="/eblv4forums/app.php/feed?f=18">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - League Office</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=18" class="forumtitle">League Office</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=29" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Articles/Columns</a>, 														<a href="./viewforum.php?f=30" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Podcasts</a>, 														<a href="./viewforum.php?f=31" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Hall of Fame</a>, 														<a href="./viewforum.php?f=32" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Veteran's Committee</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>1303</strong>
+								| Posts: <strong>11990</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=165067" style="color: #AA0000;" class="username-coloured">Mofoticon</a><br />&laquo; Fri Jan 04, 2019 1:25 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">1303 <dfn>Topics</dfn></dd>
+					<dd class="posts">11990 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=18&amp;p=30070418#p30070418" title="Re: Contact/Signup Thread" class="lastsubject">Re: Contact/Signup Thread</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=165067" style="color: #AA0000;" class="username-coloured">Mofoticon</a>
+																	<a href="./viewtopic.php?f=18&amp;p=30070418#p30070418" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Fri Jan 04, 2019 1:25 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=19" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Rosters" href="/eblv4forums/app.php/feed?f=19">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Rosters</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=19" class="forumtitle">Rosters</a>
+																		
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>33</strong>
+								| Posts: <strong>86</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=5029308" class="username">Giannis1995</a><br />&laquo; Fri Jan 04, 2019 11:36 am
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">33 <dfn>Topics</dfn></dd>
+					<dd class="posts">86 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=19&amp;p=30070416#p30070416" title="Utah Jazz" class="lastsubject">Utah Jazz</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=5029308" class="username">Giannis1995</a>
+																	<a href="./viewtopic.php?f=19&amp;p=30070416#p30070416" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Fri Jan 04, 2019 11:36 am
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread_subforum">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=20" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - GM Desk" href="/eblv4forums/app.php/feed?f=20">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - GM Desk</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=20" class="forumtitle">GM Desk</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=27" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Trade Central</a>, 														<a href="./viewforum.php?f=28" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Waiver Wire</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>3714</strong>
+								| Posts: <strong>19570</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3048038" class="username">thuggy</a><br />&laquo; Fri Jan 04, 2019 4:30 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">3714 <dfn>Topics</dfn></dd>
+					<dd class="posts">19570 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=20&amp;p=30070425#p30070425" title="Re: Sign &amp; Release Topic" class="lastsubject">Re: Sign &amp; Release Topic</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3048038" class="username">thuggy</a>
+																	<a href="./viewtopic.php?f=20&amp;p=30070425#p30070425" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Fri Jan 04, 2019 4:30 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread_subforum">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=21" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Free Agency" href="/eblv4forums/app.php/feed?f=21">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Free Agency</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=21" class="forumtitle">Free Agency</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=22" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Centers</a>, 														<a href="./viewforum.php?f=23" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Power Forwards</a>, 														<a href="./viewforum.php?f=24" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Small Forwards</a>, 														<a href="./viewforum.php?f=25" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Shooting Guards</a>, 														<a href="./viewforum.php?f=26" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Point Guards</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>168</strong>
+								| Posts: <strong>310</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3284046" class="username">16-0</a><br />&laquo; Thu Dec 20, 2018 6:57 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">168 <dfn>Topics</dfn></dd>
+					<dd class="posts">310 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=26&amp;p=30070135#p30070135" title="Re: Desmond Wilcox" class="lastsubject">Re: Desmond Wilcox</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3284046" class="username">16-0</a>
+																	<a href="./viewtopic.php?f=26&amp;p=30070135#p30070135" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Thu Dec 20, 2018 6:57 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_link">
+				<dt title="No unread posts">
+										<div class="list-inner">
+																		<a href="https://mchlclrk.com/ebl" class="forumtitle">Stats Site</a>
+						<br />EBLv4 Stats Site												
+										<div class="responsive-show" style="display: none;">
+													</div>
+											</div>
+				</dt>
+									<dd>&nbsp;</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_link">
+				<dt title="No unread posts">
+										<div class="list-inner">
+																		<a href="http://eblv4site.atspace.co.uk/" class="forumtitle">Backup Stats Site</a>
+						<br />The Backup Stats Site												
+										<div class="responsive-show" style="display: none;">
+													</div>
+											</div>
+				</dt>
+									<dd>&nbsp;</dd>
+							</dl>
+					</li>
+			
+	
+				</ul>
+
+			</div>
+		</div>
+	
+				<div class="forabg">
+			<div class="inner">
+			<ul class="topiclist">
+				<li class="header">
+										<dl class="row-item">
+						<dt><div class="list-inner"><a href="./viewforum.php?f=3">Off-Topic</a></div></dt>
+						<dd class="topics">Topics</dd>
+						<dd class="posts">Posts</dd>
+						<dd class="lastpost"><span>Last post</span></dd>
+					</dl>
+									</li>
+			</ul>
+			<ul class="topiclist forums">
+		
+	
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_read">
+				<dt title="No unread posts">
+										<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Hall of Fame" href="/eblv4forums/app.php/feed?f=4">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Hall of Fame</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=4" class="forumtitle">Hall of Fame</a>
+																		
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>17</strong>
+								| Posts: <strong>2709</strong><br />Last post by <span class="username">Joshoeuh</span><br />&laquo; Wed Jun 10, 2015 3:16 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">17 <dfn>Topics</dfn></dd>
+					<dd class="posts">2709 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=4&amp;p=12000985#p12000985" title="DDC Hall of Fame" class="lastsubject">DDC Hall of Fame</a> <br />
+																	by <span class="username">Joshoeuh</span>
+																	<a href="./viewtopic.php?f=4&amp;p=12000985#p12000985" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Wed Jun 10, 2015 3:16 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=5" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - General" href="/eblv4forums/app.php/feed?f=5">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - General</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=5" class="forumtitle">General</a>
+																		
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>117</strong>
+								| Posts: <strong>2285</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3048878" style="color: #AA0000;" class="username-coloured">Dubb</a><br />&laquo; Thu Jan 03, 2019 11:33 am
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">117 <dfn>Topics</dfn></dd>
+					<dd class="posts">2285 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=5&amp;p=30070405#p30070405" title="Re: Greatest Chat Quotes" class="lastsubject">Re: Greatest Chat Quotes</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3048878" style="color: #AA0000;" class="username-coloured">Dubb</a>
+																	<a href="./viewtopic.php?f=5&amp;p=30070405#p30070405" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Thu Jan 03, 2019 11:33 am
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread_subforum">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=6" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Entertainment/Sports" href="/eblv4forums/app.php/feed?f=6">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Entertainment/Sports</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=6" class="forumtitle">Entertainment/Sports</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=14" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Wrestling</a>, 														<a href="./viewforum.php?f=15" class="subforum unread" title="Unread posts">
+									<i class="icon fa-file-o fa-fw  icon-red icon-md" aria-hidden="true"></i>Fantasy Sports</a>, 														<a href="./viewforum.php?f=16" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Graphics</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>305</strong>
+								| Posts: <strong>8511</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3048878" style="color: #AA0000;" class="username-coloured">Dubb</a><br />&laquo; Fri Jan 04, 2019 3:17 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">305 <dfn>Topics</dfn></dd>
+					<dd class="posts">8511 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=6&amp;p=30070423#p30070423" title="Re: Favorite TV Shows of 2018: The Results" class="lastsubject">Re: Favorite TV Shows of 2018…</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3048878" style="color: #AA0000;" class="username-coloured">Dubb</a>
+																	<a href="./viewtopic.php?f=6&amp;p=30070423#p30070423" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Fri Jan 04, 2019 3:17 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_read_subforum">
+				<dt title="No unread posts">
+										<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Games" href="/eblv4forums/app.php/feed?f=7">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Games</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=7" class="forumtitle">Games</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=12" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Completed Games</a>, 														<a href="./viewforum.php?f=13" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Graveyard</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>61</strong>
+								| Posts: <strong>8124</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3120168" class="username">Devonta</a><br />&laquo; Sun Mar 18, 2018 9:44 am
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">61 <dfn>Topics</dfn></dd>
+					<dd class="posts">8124 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=7&amp;p=30053162#p30053162" title="Fun NFL Draft Game" class="lastsubject">Fun NFL Draft Game</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3120168" class="username">Devonta</a>
+																	<a href="./viewtopic.php?f=7&amp;p=30053162#p30053162" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Sun Mar 18, 2018 9:44 am
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+	
+	
+			
+					<li class="row">
+						<dl class="row-item forum_unread_subforum">
+				<dt title="Unread posts">
+					<a href="./viewforum.php?f=8" class="row-item-link"></a>					<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Diaries" href="/eblv4forums/app.php/feed?f=8">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Diaries</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=8" class="forumtitle">Diaries</a>
+																																<br /><strong>Subforums:</strong>
+														<a href="./viewforum.php?f=9" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Sign-ups/Polls</a>, 														<a href="./viewforum.php?f=10" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Diary Archive</a>, 														<a href="./viewforum.php?f=11" class="subforum read" title="No unread posts">
+									<i class="icon fa-file-o fa-fw  icon-blue icon-md" aria-hidden="true"></i>Mafias</a>																				
+										<div class="responsive-show" style="display: none;">
+															Topics: <strong>264</strong>
+								| Posts: <strong>13025</strong><br />Last post by <a href="./memberlist.php?mode=viewprofile&amp;u=3078992" class="username">JerryArr</a><br />&laquo; Wed Jan 02, 2019 4:35 pm
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">264 <dfn>Topics</dfn></dd>
+					<dd class="posts">13025 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?f=8&amp;p=30070390#p30070390" title="Re: Race to a Billion game thread" class="lastsubject">Re: Race to a Billion game th…</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=3078992" class="username">JerryArr</a>
+																	<a href="./viewtopic.php?f=8&amp;p=30070390#p30070390" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br />Wed Jan 02, 2019 4:35 pm
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+				</ul>
+
+			</div>
+		</div>
+		
+
+
+
+	<div class="stat-block online-list">
+		<h3><a href="./viewonline.php">Who is online</a></h3>		<p>
+						In total there are <strong>5</strong> users online :: 2 registered, 0 hidden and 3 guests (based on users active over the past 5 minutes)<br />Most users ever online was <strong>43</strong> on Thu Jan 03, 2019 11:32 pm<br /> 
+							<br />Registered users: <a href="./memberlist.php?mode=viewprofile&amp;u=3092805" class="username">karachiboy911</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=3310140" class="username">mking22</a>
+				<br /><em>Legend: <a style="color:#AA0000" href="./memberlist.php?mode=group&amp;g=5">Administrators</a>, <a style="color:#00AA00" href="./memberlist.php?mode=group&amp;g=4">Global moderators</a></em>								</p>
+	</div>
+
+
+	<div class="stat-block birthday-list">
+		<h3>Birthdays</h3>
+		<p>
+						No birthdays today					</p>
+	</div>
+
+	<div class="stat-block statistics">
+		<h3>Statistics</h3>
+		<p>
+						Total posts <strong>66772</strong> &bull; Total topics <strong>6012</strong> &bull; Total members <strong>267</strong> &bull; Our newest member <strong><a href="./memberlist.php?mode=viewprofile&amp;u=5029309" class="username">KlapnorskZ</a></strong>
+					</p>
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="./index.php" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="-04:00">UTC-04:00</span></li>
+							<li class="rightside">
+				<a href="./ucp.php?mode=delete_cookies" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+							<li class="rightside" data-last-responsive="true">
+					<a href="./memberlist.php" title="View complete list of members" role="menuitem">
+						<i class="icon fa-group fa-fw" aria-hidden="true"></i><span>Members</span>
+					</a>
+				</li>
+												<li class="rightside" data-last-responsive="true">
+				<a href="./memberlist.php?mode=team" role="menuitem">
+					<i class="icon fa-shield fa-fw" aria-hidden="true"></i><span>The team</span>
+				</a>
+			</li>
+									<li class="rightside" data-last-responsive="true">
+				<a href="./memberlist.php?mode=contactadmin" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	<div class="copyright">
+				Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited
+		<br><strong><span>*</span>Hexagon style by <a href="https://twitter.com/MannixMD">MannixMD</a></strong>																										 
+									</div>
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		<div id="darken" class="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	</div>
+
+<script type="text/javascript" src="./assets/javascript/jquery.min.js?assets_version=19"></script>
+<script type="text/javascript" src="./assets/javascript/core.js?assets_version=19"></script>
+
+
+
+<script src="./ext/paul999/ajaxshoutbox/styles/all/template/js/ajax_shoutbox.js?assets_version=19"></script>
+<script src="./styles/Hexagon/template/forum_fn.js?assets_version=19"></script>
+<script src="./styles/prosilver/template/ajax.js?assets_version=19"></script>
+
+
+
 </body>
 </html>
